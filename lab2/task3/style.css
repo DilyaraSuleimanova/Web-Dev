@@ -96,7 +96,7 @@ a {
     border-radius: 10px;
     color: #fff;
     margin-inline: 20px;
-    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1), 8px 8px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.1);
 }
 
 .rec-box .rec {
@@ -120,7 +120,7 @@ a {
     height: 100%;
     border: 1px solid #ccc;
     border-radius: 10px;
-    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1), 8px 8px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.1);
     overflow-y:visible;
     line-height: 1.5;
     color: #555;
