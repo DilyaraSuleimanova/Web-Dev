@@ -4,5 +4,6 @@ def.html
 notes.html
 strawberry.jpg
 
-/task1/.angular/*
-/task1/node_modules/*
+lab4\first-project\
+lab4\task1\.angular\
+lab4\task1\node_modules\
