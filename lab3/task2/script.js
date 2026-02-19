@@ -2,6 +2,16 @@ document.addEventListener('DOMContentLoaded', () => {
     const taskInput = document.getElementById('task-input');
     const addTaskBtn = document.getElementById('task-add-btn');
     const taskList = document.getElementById('task-list');
+    const progress = document.getElementById('progress');
+
+    const progressCheck = () => {
+        const total = taskList.children.length;
+        const complete = taskList.getElementsByClassName('completed').length;
+
+        progress.innerHTML = `
+        <p>Total: ${total} </br> Completed: ${complete}</p>
+        `;
+    }
 
     const addTask = (text, completed = false) => {
         const taskText = taskInput.value.trim();
@@ -19,6 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
 
         const checkbox = li.querySelector('.checkbox');
+        
 
         if(completed) {
             li.classList.add('completed');
@@ -27,14 +38,18 @@ document.addEventListener('DOMContentLoaded', () => {
         checkbox.addEventListener('change', () => {
             const isChecked = checkbox.checked;
             li.classList.toggle('completed', isChecked);
+            progressCheck();
         });
 
         li.querySelector(".delete-btn").addEventListener('click', () => {
             li.remove();
+            progressCheck();
         })
 
         taskList.appendChild(li);
         taskInput.value = '';
+        progressCheck();
+        
     }
 
     
