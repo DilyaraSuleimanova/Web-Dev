@@ -1,0 +1,33 @@
+.header {
+  background-color: #fa3b3b;
+  color: white;
+  padding: 40px 140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav a {
+  color: white;
+  margin-left: 30px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav a:hover {
+  opacity: 0.8;
+}
+
+main {
+  margin: 30px 160px;
+}
+
+h1 {
+  padding: 20px 40px 0;
+  color: #252525;
+}

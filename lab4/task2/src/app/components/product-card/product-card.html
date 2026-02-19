@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="card">
+
+    <!-- Image -->
+    <div class="image-container">
+      <img 
+        [src]="product.images[currentImageIndex]" alt="product image" (click)="openProduct()">
+    </div>
+
+    <!-- Thumbnails -->
+    <div class="thumbnails">
+      <img *ngFor="let img of product.images; let i = index" [src]="img" (click)="currentImageIndex = i">
+    </div>
+
+    <h3>{{ product.name }}</h3>
+
+    <p class="description">
+      {{ product.description }}
+    </p>
+
+    <div class="price">
+      {{ product.price | number }} ₸
+    </div>
+
+    <div class="rating">
+      <span *ngFor="let star of [1,2,3,4,5]">
+        <span *ngIf="product.rating >= star">★</span>
+        <span *ngIf="product.rating < star">☆</span>
+      </span>
+      {{ product.rating }}
+    </div>
+
+    <div class="actions">
+
+      <button class="view-btn" (click)="openProduct()">
+        View Product
+      </button>
+
+      <div class="share-buttons">
+        <button class="whatsapp" (click)="shareWhatsApp()">
+          WhatsApp
+        </button>
+
+        <button class="telegram" (click)="shareTelegram()">
+          Telegram
+        </button>
+      </div>
+
+    </div>
+
+  </div>
+
+
+    
+
+    
+
+
+</body>
+</html>
