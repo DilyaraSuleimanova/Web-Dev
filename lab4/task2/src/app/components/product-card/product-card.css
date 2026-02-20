@@ -33,6 +33,15 @@
   border: 1px solid #ddd;
 }
 
+.thumbnails img:hover {
+  border-color: #667eea;
+  transform: scale(1.1);
+}
+
+.thumbnails.active {
+  border-color: #764ba2;
+}
+
 h3 {
   margin-top: 15px;
   font-size: 18px;
@@ -44,14 +53,31 @@ h3 {
 }
 
 .price {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
-  color: #e60000;
-  margin: 10px 0;
+  color: #a26ada;
+  margin-top: 10px;
 }
 
-.rating {
-  margin-bottom: 10px;
+.rating-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.star {
+  font-size: 1.2rem;
+  margin-right: 5px;
+}
+
+.star .filled {
+  color: #fbbf24;
+}
+
+.rating-number {
+  font-weight: 600;
+  color: #4a5568;
+  font-size: 0.95rem;
 }
 
 .actions {
@@ -60,43 +86,66 @@ h3 {
   gap: 10px;
 }
 
-.view-btn {
-  background-color: #fa3b3b;
-  color: white;
+.btn {
+  flex: 1;
+  padding: 12px 20px;
   border: none;
-  padding: 8px;
-  border-radius: 6px;
-  font-weight: bold;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
 }
 
-.view-btn:hover {
-  background-color: #c40000;
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
 }
 
 .share-buttons {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
 }
 
 .share-buttons button:hover {
-  color: #000;
-  opacity: 0.7;
+  color: #fff;
 }
 
 .whatsapp,  .telegram{
   color: white;
+  font-weight: 600;
+  font-size: 14px;
   border: none;
   padding: 8px;
   border-radius: 6px;
-  width: 47%;
+  border: 1px solid;
+  /* width: 47%; */
+  transition: all 0.2s linear;
 }
 
 .whatsapp {
-  background-color: #2bdd6c;
+  background: #fff;
+  color: #04c149;
+  border-color: #04c149;
+}
+
+.whatsapp:hover {
+  background: #04c149;
 }
 
 .telegram {
-  background-color: #2598d2;
+  background: #fff;
+  color: #2598d2;
+  border-color: #2598d2;
+}
+
+.telegram:hover {
+  background: #2598d2;
 }
 
 
