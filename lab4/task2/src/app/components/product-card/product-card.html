@@ -31,17 +31,6 @@
     </div>
 
 
-    <!-- <div class="rating-container">
-      <div class="stars">
-        <span 
-          *ngFor="let star of getStarsArray()" 
-          class="star"
-          [class.filled]="star.filled">
-          ★
-        </span>
-      </div>
-      <span class="rating-number">{{ product.rating }}</span>
-    </div> -->
     <div class="rating-container">
       @for (star of [1, 2, 3, 4, 5]; track $index) {
         <span class="star">
@@ -69,14 +58,6 @@
           Telegram
         </button>
       </div>
-        <!-- <button class="whatsapp" (click)="shareWhatsApp()">
-          WhatsApp
-        </button>
-
-        <button class="telegram" (click)="shareTelegram()">
-          Telegram
-        </button> -->
-
 
     </div>
 

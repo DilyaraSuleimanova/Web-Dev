@@ -14,16 +14,6 @@ export class ProductCard {
 
   currentImageIndex = 0;
 
-  
-  // nextImage() {
-  //   this.currentImageIndex = (this.currentImageIndex + 1) % this.product.images.length;
-  // }
-
-  // prevImage() {
-  //   this.currentImageIndex =
-  //     (this.currentImageIndex - 1 + this.product.images.length) % this.product.images.length;
-  // }
-
   openProduct() {
     window.open(this.product.link, '_blank');
   }

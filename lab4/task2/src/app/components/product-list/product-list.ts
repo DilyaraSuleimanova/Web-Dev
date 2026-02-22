@@ -25,7 +25,7 @@ export class ProductList {
         'https://resources.cdn-kaspi.kz/img/m/p/h65/h81/86275143532574.jpg?format=gallery-large',
         'https://resources.cdn-kaspi.kz/img/m/p/hbf/h6b/86275143598110.jpg?format=gallery-large'
       ],
-      link: 'https://kaspi.kz/shop/p/apple-iphone-15-128gb-black-123456/'
+      link: 'https://kaspi.kz/shop/p/apple-iphone-15-128gb-chernyi-113137790/?c=710000000'
     },
 
     {
@@ -40,7 +40,7 @@ export class ProductList {
         'https://resources.cdn-kaspi.kz/img/m/p/he7/h09/86009485459486.jpg?format=gallery-large',
         'https://resources.cdn-kaspi.kz/img/m/p/hb3/h80/86009485557790.jpg?format=gallery-large'
       ],
-      link: 'https://kaspi.kz/shop/p/samsung-galaxy-s23-123456/'
+      link: 'https://kaspi.kz/shop/p/samsung-galaxy-s23-5g-8-gb-256-gb-chernyi-108915936/?c=710000000'
     },
 
     {
@@ -55,7 +55,7 @@ export class ProductList {
         'https://resources.cdn-kaspi.kz/img/m/p/p29/p1e/64464409.jpg?format=gallery-medium',
         'https://resources.cdn-kaspi.kz/img/m/p/pfc/p95/64168414.png?format=gallery-medium'
       ],
-      link: 'https://kaspi.kz/shop/p/samsung-galaxy-s23-123456/'
+      link: 'https://kaspi.kz/shop/p/apple-iphone-17-pro-256gb-oranzhevyi-145467625/?c=710000000'
     },
 
     {
@@ -70,7 +70,7 @@ export class ProductList {
         'https://resources.cdn-kaspi.kz/img/m/p/pdd/p79/20744916.jpg?format=gallery-medium',
         'https://resources.cdn-kaspi.kz/img/m/p/pc0/p79/20744915.JPG?format=gallery-medium'
       ],
-      link: 'https://kaspi.kz/shop/p/apple-iphone-15-128gb-black-123456/'
+      link: 'https://kaspi.kz/shop/p/xiaomi-redmi-note-14-8-gb-256-gb-chernyi-133574875/?c=710000000'
     },
 
     {
@@ -85,7 +85,7 @@ export class ProductList {
         'https://resources.cdn-kaspi.kz/img/m/p/h65/h81/86275143532574.jpg?format=gallery-large',
         'https://resources.cdn-kaspi.kz/img/m/p/hbf/h6b/86275143598110.jpg?format=gallery-large'
       ],
-      link: 'https://kaspi.kz/shop/p/apple-iphone-15-128gb-black-123456/'
+      link: 'https://kaspi.kz/shop/p/apple-iphone-15-128gb-chernyi-113137790/?c=710000000'
     },
 
     {
@@ -100,7 +100,7 @@ export class ProductList {
         'https://resources.cdn-kaspi.kz/img/m/p/p29/p1e/64464409.jpg?format=gallery-medium',
         'https://resources.cdn-kaspi.kz/img/m/p/pfc/p95/64168414.png?format=gallery-medium'
       ],
-      link: 'https://kaspi.kz/shop/p/samsung-galaxy-s23-123456/'
+      link: 'https://kaspi.kz/shop/p/apple-iphone-17-pro-256gb-oranzhevyi-145467625/?c=710000000'
     },
 
     {
@@ -115,7 +115,7 @@ export class ProductList {
         'https://resources.cdn-kaspi.kz/img/m/p/he7/h09/86009485459486.jpg?format=gallery-large',
         'https://resources.cdn-kaspi.kz/img/m/p/hb3/h80/86009485557790.jpg?format=gallery-large'
       ],
-      link: 'https://kaspi.kz/shop/p/samsung-galaxy-s23-123456/'
+      link: 'https://kaspi.kz/shop/p/samsung-galaxy-s23-5g-8-gb-256-gb-chernyi-108915936/?c=710000000'
     },
 
     {
@@ -130,7 +130,7 @@ export class ProductList {
         'https://resources.cdn-kaspi.kz/img/m/p/pdd/p79/20744916.jpg?format=gallery-medium',
         'https://resources.cdn-kaspi.kz/img/m/p/pc0/p79/20744915.JPG?format=gallery-medium'
       ],
-      link: 'https://kaspi.kz/shop/p/apple-iphone-15-128gb-black-123456/'
+      link: 'https://kaspi.kz/shop/p/xiaomi-redmi-note-14-8-gb-256-gb-chernyi-133574875/?c=710000000'
     },
 
     {
@@ -145,7 +145,7 @@ export class ProductList {
         'https://resources.cdn-kaspi.kz/img/m/p/p29/p1e/64464409.jpg?format=gallery-medium',
         'https://resources.cdn-kaspi.kz/img/m/p/pfc/p95/64168414.png?format=gallery-medium'
       ],
-      link: 'https://kaspi.kz/shop/p/samsung-galaxy-s23-123456/'
+      link: 'https://kaspi.kz/shop/p/apple-iphone-17-pro-256gb-oranzhevyi-145467625/?c=710000000'
     },
 
     {
@@ -160,7 +160,7 @@ export class ProductList {
         'https://resources.cdn-kaspi.kz/img/m/p/h65/h81/86275143532574.jpg?format=gallery-large',
         'https://resources.cdn-kaspi.kz/img/m/p/hbf/h6b/86275143598110.jpg?format=gallery-large'
       ],
-      link: 'https://kaspi.kz/shop/p/apple-iphone-15-128gb-black-123456/'
+      link: 'https://kaspi.kz/shop/p/apple-iphone-15-128gb-chernyi-113137790/?c=710000000'
     },
 
     {
@@ -175,7 +175,7 @@ export class ProductList {
         'https://resources.cdn-kaspi.kz/img/m/p/pdd/p79/20744916.jpg?format=gallery-medium',
         'https://resources.cdn-kaspi.kz/img/m/p/pc0/p79/20744915.JPG?format=gallery-medium'
       ],
-      link: 'https://kaspi.kz/shop/p/apple-iphone-15-128gb-black-123456/'
+      link: 'https://kaspi.kz/shop/p/xiaomi-redmi-note-14-8-gb-256-gb-chernyi-133574875/?c=710000000'
     },
 
     {
@@ -190,7 +190,7 @@ export class ProductList {
         'https://resources.cdn-kaspi.kz/img/m/p/he7/h09/86009485459486.jpg?format=gallery-large',
         'https://resources.cdn-kaspi.kz/img/m/p/hb3/h80/86009485557790.jpg?format=gallery-large'
       ],
-      link: 'https://kaspi.kz/shop/p/samsung-galaxy-s23-123456/'
+      link: 'https://kaspi.kz/shop/p/samsung-galaxy-s23-5g-8-gb-256-gb-chernyi-108915936/?c=710000000'
     },
   ];
 }
