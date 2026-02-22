@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, input } from '@angular/core';
 import { DecimalPipe, CommonModule } from '@angular/common';
 
 import { Product } from '../../model/product.model';
@@ -10,21 +10,22 @@ import { Product } from '../../model/product.model';
   styleUrl: './product-card.css',
 })
 export class ProductCard {
-  @Input() product!: Product;
+  // @Input() product!: Product;
+  product = input.required<Product>();
 
   currentImageIndex = 0;
 
   openProduct() {
-    window.open(this.product.link, '_blank');
+    window.open(this.product().link, '_blank');
   }
 
   shareWhatsApp() {
-    const url = encodeURIComponent(this.product.link);
+    const url = encodeURIComponent(this.product().link);
     window.open(`https://wa.me/?text=Check out this product: ${url}`, '_blank');
   }
 
   shareTelegram() {
-    const url = encodeURIComponent(this.product.link);
+    const url = encodeURIComponent(this.product().link);
     const text = encodeURIComponent(this.product.name);
     window.open(`https://t.me/share/url?url=${url}&text=${text}`, '_blank');
   }

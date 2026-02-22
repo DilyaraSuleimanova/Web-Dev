@@ -10,38 +10,38 @@
 
     
     <div class="image-container">
-      <img  [src]="product.images[currentImageIndex]" alt="product image" (click)="openProduct()">
+      <img  [src]="product().images[currentImageIndex]" alt="product image" (click)="openProduct()">
     </div>
 
     
     <div class="thumbnails">
-      @for (img of product.images; track img; let i = $index) {
+      @for (img of product().images; track img; let i = $index) {
         <img [src]="img" (click)="currentImageIndex = i">
       }
     </div>
 
-    <h3>{{ product.name }}</h3>
+    <h3>{{ product().name }}</h3>
 
     <p class="description">
-      {{ product.description }}
+      {{ product().description }}
     </p>
 
     <div class="price">
-      {{ product.price | number }} ₸
+      {{ product().price | number }} ₸
     </div>
 
 
     <div class="rating-container">
       @for (star of [1, 2, 3, 4, 5]; track $index) {
         <span class="star">
-          @if (product.rating >= star) {
+          @if (product().rating >= star) {
             <span class="filled">★</span>
           } @else {
             <span>☆</span>
           }
         </span> 
       }
-      <span> {{ product.rating }}</span>
+      <span> {{ product().rating }}</span>
     </div>
 
     <div class="actions">
