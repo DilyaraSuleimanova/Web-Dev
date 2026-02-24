@@ -1,4 +1,4 @@
-import { Component, input } from '@angular/core';
+import { Component, input, output } from '@angular/core';
 import { DecimalPipe, CommonModule } from '@angular/common';
 
 import { Product } from '../../model/product.model';
@@ -10,8 +10,19 @@ import { Product } from '../../model/product.model';
   styleUrl: './product-card.css',
 })
 export class ProductCard {
-  // @Input() product!: Product;
   product = input.required<Product>();
+  delete = output<number>();
+
+  like() {
+    this.product().likes++;
+  }
+
+  deleteProduct() {
+    const confirmed = confirm('Are you sure?');
+    if (confirmed) {
+      this.delete.emit(this.product().id);
+    }
+  }
 
   currentImageIndex = 0;
 
@@ -29,4 +40,6 @@ export class ProductCard {
     const text = encodeURIComponent(this.product.name);
     window.open(`https://t.me/share/url?url=${url}&text=${text}`, '_blank');
   }
+
+  
 }
