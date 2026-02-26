@@ -1,4 +1,4 @@
-import { Component, input } from '@angular/core';
+import { Component, input, output } from '@angular/core';
 import { DecimalPipe, CommonModule } from '@angular/common';
 
 import { Product } from '../../model/product.model';
@@ -11,6 +11,18 @@ import { Product } from '../../model/product.model';
 })
 export class ProductCard {
   product = input.required<Product>();
+  delete = output<number>();
+
+  like() {
+    this.product().likes++;
+  }
+
+  deleteProduct() {
+    const confirmed = confirm('Are you sure?');
+    if (confirmed) {
+      this.delete.emit(this.product().id);
+    }
+  }
 
   currentImageIndex = 0;
 

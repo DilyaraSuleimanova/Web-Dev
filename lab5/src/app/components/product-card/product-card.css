@@ -6,14 +6,6 @@
   transition: 0.3s;
 }
 
-.card.five-likes {
-  background-color: #fff3cd;
-}
-
-.card.ten-likes {
-  background-color: #d4edda;
-}
-
 .card:hover {
   transform: translateY(-5px);
 }
@@ -94,12 +86,8 @@ h3 {
   gap: 10px;
 }
 
-.like-delete {
-  display: flex;
-  justify-content: space-between;
-}
-
 .btn {
+  flex: 1;
   padding: 12px 20px;
   border: none;
   border-radius: 8px;
@@ -109,35 +97,13 @@ h3 {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  color: white;
-}
-
-.view {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-}
-
-.like {
-  background: #f9549e;
-}
-
-.delete{
-  background: transparent;
-  padding: 5px;
-  font-size: 18px;
-  color: red;
+  color: white;
 }
 
 .btn:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
-}
-
-.delete:hover, .like:hover {
-  box-shadow: 0 4px 12px rgba(234, 102, 102, 0.4);
-}
-
-.like:hover .heart {
-  color: red;
 }
 
 .share-buttons {
@@ -158,6 +124,7 @@ h3 {
   padding: 8px;
   border-radius: 6px;
   border: 1px solid;
+  /* width: 47%; */
   transition: all 0.2s linear;
 }
 
@@ -180,6 +147,5 @@ h3 {
 .telegram:hover {
   background: #2598d2;
 }
-
 
 
