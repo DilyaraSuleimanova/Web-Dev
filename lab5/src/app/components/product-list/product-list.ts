@@ -15,7 +15,6 @@ export class ProductList {
   @Input() products: Product[] = [];
 
   removeProduct(productId: number) {
-    this.products =
-      this.products.filter(p => p.id !== productId);
+    this.products = this.products.filter(p => p.id !== productId);
     }
 }

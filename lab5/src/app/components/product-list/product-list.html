@@ -9,16 +9,13 @@
   <div class="product-list-container">
     
     <div class="product-grid">
-      <!-- @for (product of products; track product.id) {
-        <app-product-card [product]="product"></app-product-card>
-      } -->
+      
       @if (products.length === 0) {
         <p class="no-product">No products in this category.</p>
       }
 
       @for (product of products; track product.id) {
         <app-product-card [product]="product" (delete)="removeProduct($event)">
-          
         </app-product-card>
       }
     </div>
