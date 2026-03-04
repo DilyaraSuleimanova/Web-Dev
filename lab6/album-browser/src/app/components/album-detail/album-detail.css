@@ -1,0 +1,46 @@
+.text{
+    margin-bottom:  10px;
+    font-size: 18px;
+} 
+
+input {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding: 5px;
+    border: 1px #ccc solid;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.actions {
+    display: flex;
+    gap: 20px;
+}
+
+.actions button{
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: transform 3s;
+}
+
+.actions button:hover {
+    opacity: 0.7;
+}
+
+
+.save {
+  background: #1976d2;
+  color: white;
+}
+
+.view {
+    background: #01ad1b;
+    color: white;
+}
+
+.back  {
+    background: #787f85;
+    color: white;
+}

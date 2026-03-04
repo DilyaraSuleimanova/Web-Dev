@@ -1,0 +1,23 @@
+@if (loading()) {
+  <p>Loading album...</p>
+}
+
+@if (album() !== null) {
+
+  <p class="text"><strong>ID:</strong> {{ album()!.id }}</p>
+  <p class="text"><strong>User ID:</strong> {{ album()!.userId }}</p>
+
+  <label class="text">Title: </label>
+  <input
+    [ngModel]="album()!.title"
+    (ngModelChange)="album.update(a => a ? { ...a, title: $event } : null)"
+  />
+
+  <div class="actions">
+    <button (click)="save()" class="save">Save</button>
+
+    <button [routerLink]="['/albums', album()!.id, 'photos']" class="view">View Photos</button>
+
+    <button (click)="goBack()" class="back">Back</button>
+  </div>
+}

@@ -1,0 +1,39 @@
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li a {
+  text-decoration: none;
+  color: #00f;
+}
+
+li a:hover {
+  color: #0409a2;
+  text-decoration-line: underline;
+}
+
+.album-item {
+  margin: 8px 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  background: #f9fafb;
+  font-size: 18px;
+}
+
+button {
+  background: #ef4444;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.85;
+}

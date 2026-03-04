@@ -1,0 +1,12 @@
+h1 {
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background: #01ad1b;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
