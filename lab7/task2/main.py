@@ -1,9 +1,9 @@
 from models import Animal, Dog, Cat
 
 
-animal = Animal("Generic", 5, "gray")
-dog = Dog("Buddy", 3, "brown", "Labrador")
-cat = Cat("Whiskers", 2, "white", 9)
+animal = Animal("Koala", 5, "gray")
+dog = Dog("Aktos", 3, "brown", "Labrador")
+cat = Cat("Baggy", 2, "white", 9)
 
 animals = [animal, dog, cat]
 
