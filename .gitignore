@@ -5,3 +5,11 @@ notes.html
 strawberry.jpg
 
 /lab4/first-project
+
+.venv/
+/lab8/venv/
+/lab8/*.pyc
+/lab8/db.sqlite3
+/lab8/shop_back/__pycache__
+__pycache__
+.vscode
