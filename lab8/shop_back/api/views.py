@@ -55,4 +55,4 @@ def category_products(request, id):
         }
         for p in products
     ]
-    return JsonResponse(data, safe=False)
+    return JsonResponse(data, safe=False) 
