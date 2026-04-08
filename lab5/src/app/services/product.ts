@@ -10,8 +10,8 @@ export class ProductService {
   categories: Category[] = [
     { id: 1, name: 'Smartphones' },
     { id: 2, name: 'Laptops' },
-    { id: 3, name: 'Headphones' },
-    { id: 4, name: 'Tablets' }
+    { id: 3, name: 'TVs' },
+    { id: 4, name: 'Headphones' }
   ];
 
   products: Product[] = [
