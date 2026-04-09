@@ -5,3 +5,8 @@ notes.html
 strawberry.jpg
 
 /lab4/first-project
+
+__pycache__/
+*.pyc
+venv/
+db.sqlite3
